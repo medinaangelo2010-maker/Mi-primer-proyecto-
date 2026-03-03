@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="text-align:center; font-family: sans-serif; margin-top: 50px;">
+        <h1>Calculadora de Angelo</h1>
+        <input type="text" id="pantalla" style="width:250px; height:40px; font-size:20px; text-align:right; margin-bottom:10px;" readonly>
+        <br>
+        <button onclick="operar('7')" style="width:50px; height:50px;">7</button>
+        <button onclick="operar('8')" style="width:50px; height:50px;">8</button>
+        <button onclick="operar('9')" style="width:50px; height:50px;">9</button>
+        <br>
+        <button onclick="calcular()" style="width:75px; height:50px; background: #2ecc71;">=</button>
+        <button onclick="limpiar()" style="width:75px; height:50px; background: #e74c3c;">C</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
